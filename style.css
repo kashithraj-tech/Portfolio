@@ -5,34 +5,30 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f7fa;
-    color: #333333;
     margin: 0;
-    padding: 20px;
-    line-height: 1.6;
 }
 
 h1 {
-    color: #0d47a1;
-    text-align: center;
+    color: blue;
 }
 
 h2 {
-    color: #1565c0;
-    border-bottom: 2px solid #1565c0;
-    padding-bottom: 5px;
+    color: darkblue;
 }
 
-img {
-    display: block;
-    margin: 20px auto;
-    border-radius: 50%;
+/* Add this at the bottom */
+
+.home {
+    text-align: center;
+}
+
+.profile-image {
     width: 220px;
     height: 220px;
+    border-radius: 50%;
     object-fit: cover;
-    border: 4px solid #1565c0;
+    border: 5px solid #1565c0;
 }
-
 ul,
 ol {
     margin-left: 20px;
